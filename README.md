@@ -22,6 +22,8 @@ It also tailors your resume based on the job description using Google Gemini AI,
 # Clone the repository
 git clone https://github.com/Harshi-max/resume_ats_score.git
 cd resume_ats_score
+python -m venv venv
+source venv/bin/activate 
 
 # Create a .env file and keep
 GOOGLE_API_KEY=<api-key>
